@@ -5,4 +5,5 @@ logs/*
 
 # ignore everything in the root except the "wp-content" directory.
 app/public/*
-!wp-content/
+!wp-content/plugins/my-plugin/*
+!wp-content/themes/storefront-child/*
