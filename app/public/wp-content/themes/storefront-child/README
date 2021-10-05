@@ -1,0 +1,13 @@
+Efter 5 försök att skapa en barntema med astra, hello theme, storefront, där jag började med att ta färdiga child mallar, men tyvärr så har jag något med behörighet på min dator som inte klarade av att ändra vissa innehåll. Mycket frusterande så försvann många timmar på att bara försöka skapa ett barntema och få den aktiverad, men det ledde till att jag inte kom åt min databas tillslut av någon anledning. 
+Så sista försöket, jag skapade en barntema med local istället och har använt mig av storefron som parent theme.
+Jag tycker layouten var lite tråkig men den fick duga. Jag har inte satsat på att snygga till sidan med massa finesser då jag tycker temat har funkat som den ska till denna uppgift.
+
+Det svåra var att veta vilka filer som man ska ha i barntemat, hur många filer vill jag göra en override på, hur mycket vill jag skapa hårdkodat, hur mycket vill jag jobba i temaredigeraren?
+Jag la min energi på att försöka göra egna plugin istället och där las min energi för denna uppgift.
+Även API fastnade jag på väldigt länge, printscreens på api endpoint finns som sparade filer och jag fick till en kod som printade ut ID på mina post men mer än så hann jag inte då jag fastande och fick inte till det innan inlämning.
+Hade jag inte fastnat på så små tekniska saker i början hade jag nog lagt mer tid på fler template samt gjort lite mer på stylingen och hittat fler plugins som underlättar och kan göra sidan snyggare.
+
+
+
+Användarnamn: admin
+Lösen: admin
