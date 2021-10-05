@@ -1,0 +1,7 @@
+app/*
+!/public/wp-content/plugins/my-plugin
+
+conf/*
+logs/*
+
+.DS_Store
