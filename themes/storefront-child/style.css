@@ -1,0 +1,22 @@
+/*
+Theme Name: Storefront Child
+Theme URI: http://example.com/storefront-child/
+Description: WooCommerce child theme
+Author: Tove
+Author URI: http://example.com
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Template: storefront
+*/
+
+/*search button*/
+
+.wp-block-search .wp-block-search__button {
+    background: #3DA5D9;
+}
+
+.site-branding h1 a {
+    color: #3DA5D9; 
+ }

@@ -1,9 +1,2 @@
-conf/*
-logs/*
-
-.DS_Store
-
-# ignore everything in the root except the "wp-content" directory.
-app/public/*
-!wp-content/plugins/my-plugin/*
-!wp-content/themes/storefront-child/*
+# Ignore .DS_Store
+*.DS_Store
