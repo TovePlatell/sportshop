@@ -2,9 +2,7 @@
 
 /*
  Plugin name: qtyplugin
-
  
-
 */  ?>
 
 
