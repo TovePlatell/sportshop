@@ -56,13 +56,19 @@
                                 <a href="" class="text-reset">About Us</a>
                             </p>
                             <p>
-                                <a href="../storefront-child/contact" class="text-reset">Contact us</a>
+                                <a href="<?php echo get_post_type_archive_link( $our_coaches ); ?>">Contact us</a>
                             </p>
+
+                            
+
+
                             <p>
-                                <a href="../storefront-child/contact" class="text-reset">Our stores</a>
+                                <a href="/stores" class="text-reset">Our stores</a>
                             </p>
+
+
                             <p>
-                                <a href="../storefront-child/contact" class="text-reset">Our coaches</a>
+                                <a href="/coaches" class="text-reset">Our coaches</a>
                             </p>
 
                         </div>
@@ -115,6 +121,17 @@
 
 
 <?php wp_footer(); ?>
+
+<script>
+    jQuery(document).ready(function(){
+        jQuery('.woocommerce-cart').find('button[name="update_cart"]').prop('disabled', false);
+
+        jQuery('body').on('updated_cart_totals', function() {
+            jQuery('.woocommerce-cart').find('button[name="update_cart"]').prop('disabled', false);
+
+        })
+    });
+</script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
